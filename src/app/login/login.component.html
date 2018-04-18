@@ -1,0 +1,8 @@
+<div class="col-md-6 col-md-offset-3">
+    <h2>Login</h2>
+    <div>
+        <input [ngModel]="username" (ngModelChange)="username = $event">
+        <button (click)="login()">Submit</button>
+    </div>
+    Hello {{username}}!
+</div>
